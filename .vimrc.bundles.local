@@ -1,0 +1,6 @@
+Bundle 'jacoborus/tender.vim'
+Bundle 'itchyny/lightline.vim'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'ryanoasis/vim-webdevicons'
+Bundle 'Yggdroot/indentLine'
+

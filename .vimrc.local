@@ -1,0 +1,99 @@
+" Theme
+syntax enable
+colorscheme tender
+
+let g:airline_theme = 'tenderplus'
+
+" NERDTree
+"
+"Error detected while processing ColorScheme Auto commands for "*":
+"E121: Undefined variable: g:colors_name
+"E15: Invalid expression: g:colors_name != "solarized" | silent! aunmenu
+"Solarized | else | call SolarizedMenu() | endif
+"
+"
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
+highlight VertSplit ctermbg=NONE
+highlight VertSplit ctermfg=NONE
+let g:NERDTreeWinPos = "right"
+
+function! s:CloseIfOnlyNerdTreeLeft()
+    if exists("t:NERDTreeBufName")
+        if bufwinnr(t:NERDTreeBufName) != -1
+           if winnr("$") == 1
+                q
+            endif
+        endif
+    endif
+endfunction
+
+
+
+" nerdtree git
+
+let g:NERDTreeUseSimpleIndicator = 1
+
+set autoread
+au CursorHold * if exists("t:NerdTreeBufName") | call <SNR>15_refreshRoot() | endif
+
+" devIcon
+
+let g:airline_powerline_fonts=1
+let g:webdevicons_enable = 1
+let g:webdevicons_enable_nerdtree = 1
+let g:webdevicons_conceal_nerdtree_brackets = 0
+" " set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
+" " set guifont=Inconsolata\ for\ Powerline:h15
+set encoding=utf-8
+
+
+" GitGutter
+let g:gitgutter_avoid_cmd_prompt_on_windows = 0
+highlight clear SignColumn
+highlight GitGutterAdd ctermfg=green
+highlight GitGutterChange ctermfg=yellow
+highlight GitGutterDelete ctermfg=red
+highlight GitGutterChangeDelete ctermfg=yellow"
+
+
+" Unable folding
+
+set nofoldenable                " disable code folding
+let g:DisableAutoPHPFolding = 1 " disable PIV's folding
+
+" indent_guides {
+"if isdirectory(expand("~/.vim/bundle/vim-indent-guides/"))
+"            let g:indent_guides_start_level = 3
+"            let g:indent_guides_guide_size = 1
+"            let g:indent_guides_enable_on_vim_startup = 1
+"            let g:indent_guides_auto_colors = 0
+"            let g:indent_guides_auto_colors = 0
+"            autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+"            autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+"           let g:indent_guides_color_change_percent = 10
+"            let g:indent_guides_soft_pattern = '|'
+" endif
+"    " }
+ 
+" disabe vim-indent-guides 
+let g:indent_guides_enable_on_vim_startup=1
+
+" indentLine
+
+let g:indentLine_setColors = 1
+let g:indentLine_char = '¦'
+
+
+" snipmate
+
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+"
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
+
+" YCM
+
+let g:enable_ycm_at_startup = 1
