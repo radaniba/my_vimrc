@@ -8,3 +8,5 @@ Bundle 'Konfekt/FastFold'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'maralla/completor.vim'
 Bundle 'davidhalter/jedi-vim'
+Bundle 'Xuyuanp/nerdtree-git-plugin'
+Bundle 'tell-k/vim-autopep8'
