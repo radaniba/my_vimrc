@@ -11,1499 +11,506 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
-
-# Last Substitute Search Pattern:
-~MSle0&parser
-
-# Last Substitute String:
-$
+~MSle0~/icon
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1476482289,,"q!"
 :q
-|2,0,1476482220,,"q"
-:/neosnip
-|2,0,1476481412,,"/neosnip"
-:/neosnippets
-|2,0,1476481386,,"/neosnippets"
+|2,0,1476617578,,"q"
+:py print("hello")
+|2,0,1476617572,,"py print(\"hello\")"
+:py3 print("hello")
+|2,0,1476617563,,"py3 print(\"hello\")"
+:BundleUpdate
+|2,0,1476617041,,"BundleUpdate"
 :wq
-|2,0,1476481258,,"wq"
-:BundleClean
-|2,0,1476480637,,"BundleClean"
-:BundleDocs
-|2,0,1476480296,,"BundleDocs"
+|2,0,1476615290,,"wq"
+:/icon
+|2,0,1476615172,,"/icon"
+:/devicon
+|2,0,1476615165,,"/devicon"
+:q!
+|2,0,0,,"q!"
 :BundleInstall
-|2,0,1476480280,,"BundleInstall"
-:/git
-|2,0,1476480169,,"/git"
-:/gutter
-|2,0,1476480114,,"/gutter"
-:q@
-|2,0,1476478884,,"q@"
-:let g:indent_guides_auto_colors = 1
-|2,0,1476478354,,"let g:indent_guides_auto_colors = 1"
-:IndentGuidesToggle
-|2,0,1476478338,,"IndentGuidesToggle"
-:vsplit ~/.vimrc.local
-|2,0,1476477888,,"vsplit ~/.vimrc.local"
-:retab
-|2,0,1476471670,,"retab"
-:unfold
-|2,0,1476471107,,"unfold"
-:vsp targeted_sequencing_analytics_suite.py
-|2,0,0,,"vsp targeted_sequencing_analytics_suite.py"
-:tabn
-|2,0,0,,"tabn"
-:tabp
-|2,0,0,,"tabp"
-:tabe targeted_sequencing_analytics_suite.py
-|2,0,0,,"tabe targeted_sequencing_analytics_suite.py"
-:/ActivateAddons
-|2,0,0,,"/ActivateAddons"
-:/Activate
-|2,0,0,,"/Activate"
-:vsp ~/.vimrc
-|2,0,0,,"vsp ~/.vimrc"
-:colorscheme adam
-|2,0,0,,"colorscheme adam"
-:colorscheme Monokai
-|2,0,0,,"colorscheme Monokai"
-:colorscheme monokai
-|2,0,0,,"colorscheme monokai"
-:colorscheme molokai
-|2,0,0,,"colorscheme molokai"
-:colorscheme wombat
-|2,0,0,,"colorscheme wombat"
-:PluginInstall
-|2,0,0,,"PluginInstall"
-:vsp tsa.py
-|2,0,0,,"vsp tsa.py"
-:set splitright
-|2,0,0,,"set splitright"
-:NERDTree
-|2,0,0,,"NERDTree"
-:/snippets
-|2,0,0,,"/snippets"
-:'<,'>s/parser/greeb/g
-|2,0,0,,"'<,'>s/parser/greeb/g"
-:/airline
-|2,0,0,,"/airline"
-:Git pull
-|2,0,0,,"Git pull"
-:qw
-|2,0,0,,"qw"
-:/ycm
-|2,0,0,,"/ycm"
-:YcmToggleLogs stderr
-|2,0,0,,"YcmToggleLogs stderr"
-:YcmRestartServer
-|2,0,0,,"YcmRestartServer"
-:/colorsheme
-|2,0,0,,"/colorsheme"
-:/colorscheme
-|2,0,0,,"/colorscheme"
+|2,0,0,,"BundleInstall"
 :colorscheme tender
 |2,0,0,,"colorscheme tender"
-:colorscheme seattle
-|2,0,0,,"colorscheme seattle"
-:/colorscheme seattle
-|2,0,0,,"/colorscheme seattle"
-:colorscheme amcolors
-|2,0,0,,"colorscheme amcolors"
-:/length
-|2,0,0,,"/length"
-:/line_length
-|2,0,0,,"/line_length"
-:/line
-|2,0,0,,"/line"
-:/FileType
-|2,0,0,,"/FileType"
-:colorscheme onedark
-|2,0,0,,"colorscheme onedark"
-:colorscheme mod8
-|2,0,0,,"colorscheme mod8"
-:colorscheme hybrid
-|2,0,0,,"colorscheme hybrid"
-:colorscheme predawn
-|2,0,0,,"colorscheme predawn"
+:colorscheme
+|2,0,0,,"colorscheme"
+:colorscheme monokai
+|2,0,0,,"colorscheme monokai"
 :colorscheme atom
 |2,0,0,,"colorscheme atom"
-:/color
-|2,0,0,,"/color"
-:colorscheme dracula
-|2,0,0,,"colorscheme dracula"
-:colorscheme   monokai
-|2,0,0,,"colorscheme   monokai"
-:colorscheme darkocean
-|2,0,0,,"colorscheme darkocean"
-:colorscheme coda
-|2,0,0,,"colorscheme coda"
-:colorscheme coffee
-|2,0,0,,"colorscheme coffee"
-:colorscheme caramel
-|2,0,0,,"colorscheme caramel"
+:set t_Co=256
+|2,0,0,,"set t_Co=256"
+:/colors_name
+|2,0,0,,"/colors_name"
+:echo g:colors_name
+|2,0,0,,"echo g:colors_name"
+:hi Normal
+|2,0,0,,"hi Normal"
+:hi Comment
+|2,0,0,,"hi Comment"
+:/_name
+|2,0,0,,"/_name"
+:/fold
+|2,0,0,,"/fold"
+:/indent/g
+|2,0,0,,"/indent/g"
+:/indent
+|2,0,0,,"/indent"
+:vsp README.md
+|2,0,0,,"vsp README.md"
 
 # Search String History (newest to oldest):
-? neosnip
-|2,1,1476481412,,"neosnip"
-? neosnippets
-|2,1,1476481386,,"neosnippets"
-? git
-|2,1,1476480169,,"git"
-? gutter
-|2,1,1476480114,,"gutter"
-? \s\+$
-|2,1,1476480050,,"\\s\\+$"
-? \m<|1|>
-|2,1,1476471848,,"\\m<|1|>"
-? \Vtry\%#
-|2,1,0,,"\\Vtry\\%#"
-? \Vdef\%#
-|2,1,0,,"\\Vdef\\%#"
-? \Vcl\%#
-|2,1,0,,"\\Vcl\\%#"
-? \Vdeff\%#
-|2,1,0,,"\\Vdeff\\%#"
-? \Vwh\%#
-|2,1,0,,"\\Vwh\\%#"
-? \Vif\%#
-|2,1,0,,"\\Vif\\%#"
-? \Vfor\%#
-|2,1,0,,"\\Vfor\\%#"
-? ActivateAddons
-|2,1,0,,"ActivateAddons"
-? Activate
-|2,1,0,,"Activate"
-? snippets
-|2,1,0,,"snippets"
-? parser
-|2,1,0,,"parser"
-? airline
-|2,1,0,,"airline"
-? ycm
-|2,1,0,,"ycm"
-? colorsheme
-|2,1,0,,"colorsheme"
-? colorscheme
-|2,1,0,,"colorscheme"
-? colorscheme seattle
-|2,1,0,,"colorscheme seattle"
-? length
-|2,1,0,,"length"
-? line_length
-|2,1,0,,"line_length"
-? line
-|2,1,0,,"line"
-? FileType
-|2,1,0,,"FileType"
-?/colorcolumn
-|2,1,0,47,"colorcolumn"
-? color
-|2,1,0,,"color"
-? \<plot_in_target_outof_target_alignments\>
-|2,1,0,,"\\<plot_in_target_outof_target_alignments\\>"
-? \<result\>
-|2,1,0,,"\\<result\\>"
-? \<cleanup_temporary_bedtool\>
-|2,1,0,,"\\<cleanup_temporary_bedtool\\>"
+? icon
+|2,1,1476615172,,"icon"
+? devicon
+|2,1,1476615165,,"devicon"
+? colors_name
+|2,1,0,,"colors_name"
+? _name
+|2,1,0,,"_name"
+? fold
+|2,1,0,,"fold"
+? indent
+|2,1,0,,"indent"
+? \<set\>
+|2,1,0,,"\\<set\\>"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
-@Y
-|2,3,1476479768,,"Y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	'
-|3,1,0,0,1,0,1476482103,"'"
-"1	CHAR	0
-	pass
+|3,0,0,0,1,0,0,"'"
+""1	CHAR	0
 	
-|3,0,1,0,2,0,1476482069,"pass",""
-"2	CHAR	0
-	 def hellpo(self):
-	        """docstring for hellp"""
-	        
-	 
-|3,0,2,0,4,0,0," def hellpo(self):","        \"\"\"docstring for hellp\"\"\"","        "," "
+	let g:airline_powerline_fonts=1
+	let g:webdevicons_enable = 1
+	let g:webdevicons_enable_nerdtree = 1
+	let g:webdevicons_conceal_nerdtree_brackets = 0
+	let g:webdevicons_enable_airline_tabline = 1
+	let g:webdevicons_enable_airline_statusline = 1
+	let g:webdevicons_enable_airline_statusline = 1
+	let g:webdevicons_enable_airline_statusline = 1
+	let g:webdevicons_enable_airline_statusline = 1
+	let g:webdevicons_enable_airline_statusline = 1
+	
+	 " set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
+	 " set guifont=Inconsolata\ for\ Powerline:h15
+	
+|3,1,1,0,15,0,0,"","let g:airline_powerline_fonts=1","let g:webdevicons_enable = 1","let g:webdevicons_enable_nerdtree = 1","let g:webdevicons_conceal_nerdtree_brackets = 0","let g:webdevicons_enable_airline_tabline = 1","let g:webdevicons_enable_airline_statusline = 1","let g:webdevicons_enable_airline_statusline = 1","let g:webdevicons_enable_airline_statusline = 1","let g:webdevicons_enable_airline_statusline = 1",>49
+|<"let g:webdevicons_enable_airline_statusline = 1",""," \" set guifont=Droid\\ Sans\\ Mono\\ for\\ Powerline\\ Plus\\ Nerd\\ File\\ Types:h11"," \" set guifont=Inconsolata\\ for\\ Powerline:h15",""
+"2	LINE	0
+	
+|3,0,2,1,1,0,0,""
 "3	CHAR	0
-	     
-	   if
-|3,0,3,0,2,0,0,"     ","   if"
+	ClassName}>(<`2:object`>):
+	    """<`3:docstrin
+|3,0,3,0,2,0,0,"ClassName}>(<`2:object`>):","    \"\"\"<`3:docstrin"
 "4	LINE	0
-	 class Toto(object):
-	        """docstring for Toto"""
-	        def __init__(self, arg):
-	            super(Toto, self).__init__()
-	            self.arg = arg
-	            
-	           
-	       
-|3,0,4,1,8,0,0," class Toto(object):","        \"\"\"docstring for Toto\"\"\"","        def __init__(self, arg):","            super(Toto, self).__init__()","            self.arg = arg","            ","           ","       "
-"5	CHAR	0
 	
-	   def f
-|3,0,5,0,2,0,0,"","   def f"
+|3,0,4,1,1,0,0,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,0,""
 "6	LINE	0
 	
 |3,0,6,1,1,0,0,""
 "-	CHAR	0
-	condition
-|3,0,36,0,1,0,1476482103,"condition"
+	 
+|3,0,36,0,1,0,0," "
 
 # File marks:
-'0  6  0  ~/Documents/Dev/QuotaWatcher/NERD_tree_1
-|4,48,6,0,1476482289,"~/Documents/Dev/QuotaWatcher/NERD_tree_1"
-'1  6  0  ~/NERD_tree_1
-|4,49,6,0,1476482220,"~/NERD_tree_1"
-'2  1  0  ~/NERD_tree_1
-|4,50,1,0,1476481524,"~/NERD_tree_1"
-'3  6  0  ~/NERD_tree_1
-|4,51,6,0,1476481524,"~/NERD_tree_1"
-'4  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,52,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
-'5  6  0  ~/NERD_tree_1
-|4,53,6,0,1476481258,"~/NERD_tree_1"
-'6  1  0  ~/NERD_tree_1
-|4,54,1,0,1476481258,"~/NERD_tree_1"
-'7  1  0  ~/NERD_tree_1
-|4,55,1,0,1476481258,"~/NERD_tree_1"
-'8  1  0  ~/NERD_tree_1
-|4,56,1,0,1476481258,"~/NERD_tree_1"
-'9  6  0  ~/NERD_tree_1
-|4,57,6,0,1476481258,"~/NERD_tree_1"
+'0  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,48,6,0,1476617578,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'1  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,49,1,0,1476617150,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'2  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,50,6,0,1476617150,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'3  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,51,1,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'4  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,52,1,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'5  5  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,53,5,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'6  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,54,6,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'7  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,55,1,0,1476616663,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'8  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,56,1,0,1476616663,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+'9  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,57,1,0,1476616663,"~/Documents/Dev/quotawatcher/NERD_tree_1"
 
 # Jumplist (newest first):
--'  6  0  ~/Documents/Dev/QuotaWatcher/NERD_tree_1
-|4,39,6,0,1476482289,"~/Documents/Dev/QuotaWatcher/NERD_tree_1"
--'  19  2  ~/Documents/Dev/QuotaWatcher/NERD_tree_1
-|4,39,19,2,1476482287,"~/Documents/Dev/QuotaWatcher/NERD_tree_1"
--'  1  0  ~/Documents/Dev/QuotaWatcher/NERD_tree_1
-|4,39,1,0,1476482287,"~/Documents/Dev/QuotaWatcher/NERD_tree_1"
+-'  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,6,0,1476617578,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  22  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,22,2,1476617548,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,1,0,1476617548,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,6,0,1476617150,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476617145,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  22  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,22,2,1476617145,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,1,0,1476617145,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476617145,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  5  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,5,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,6,0,1476617141,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  21  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,21,2,1476617140,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  22  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,22,2,1476617140,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,1,0,1476617140,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,6,0,1476616663,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616658,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616658,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616658,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  22  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,22,2,1476616658,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,1,0,1476616658,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616658,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  4  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,4,0,1476616198,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  5  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,5,0,1476616198,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  6  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,6,0,1476616198,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616194,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616194,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  20  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,20,2,1476616194,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616194,"~/Documents/Dev/quotawatcher/quotawatcher.py"
+-'  21  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,21,2,1476616194,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  22  2  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,22,2,1476616194,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  1  0  ~/Documents/Dev/quotawatcher/NERD_tree_1
+|4,39,1,0,1476616194,"~/Documents/Dev/quotawatcher/NERD_tree_1"
+-'  254  0  ~/Documents/Dev/quotawatcher/quotawatcher.py
+|4,39,254,0,1476616194,"~/Documents/Dev/quotawatcher/quotawatcher.py"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476482220,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476482178,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476482178,"~/NERD_tree_1"
--'  140  0  ~/.vimrc.bundles
-|4,39,140,0,1476481781,"~/.vimrc.bundles"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476481524,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476481488,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476481488,"~/NERD_tree_1"
--'  1028  4  ~/.vimrc
-|4,39,1028,4,1476481378,"~/.vimrc"
--'  1028  4  ~/.vimrc
-|4,39,1028,4,1476481378,"~/.vimrc"
--'  1  68  ~/Documents/Dev/QuotaWatcher/log_test.py
-|4,39,1,68,1476481273,"~/Documents/Dev/QuotaWatcher/log_test.py"
--'  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  6  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,6,1476481262,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476481258,"~/NERD_tree_1"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476481258,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476481234,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476481234,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476481234,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476481234,"~/NERD_tree_1"
--'  95  0  ~/.vimrc.local
-|4,39,95,0,1476481227,"~/.vimrc.local"
--'  95  0  ~/.vimrc.local
-|4,39,95,0,1476481227,"~/.vimrc.local"
--'  95  0  ~/.vimrc.local
-|4,39,95,0,1476481227,"~/.vimrc.local"
--'  95  0  ~/.vimrc.local
-|4,39,95,0,1476481227,"~/.vimrc.local"
--'  95  0  ~/.vimrc.local
-|4,39,95,0,1476481227,"~/.vimrc.local"
--'  1  0  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,1,0,1476480972,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  1  0  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,1,0,1476480972,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  1  0  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,1,0,1476480972,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  1  0  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,1,0,1476480972,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  1  0  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,1,0,1476480972,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476480961,"~/NERD_tree_1"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476480961,"~/NERD_tree_1"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476480961,"~/NERD_tree_1"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
 -'  6  0  ~/NERD_tree_1
-|4,39,6,0,1476480961,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476480908,"~/NERD_tree_1"
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  6  0  ~/NERD_tree_1
+|4,39,6,0,1476615290,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476480908,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476480908,"~/NERD_tree_1"
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476480908,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476480908,"~/NERD_tree_1"
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476480908,"~/NERD_tree_1"
--'  98  2  ~/NERD_tree_1
-|4,39,98,2,1476480908,"~/NERD_tree_1"
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1476480908,"~/NERD_tree_1"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  36  25  ~/.vimrc.local
-|4,39,36,25,1476480907,"~/.vimrc.local"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  18  3  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,18,3,1476480839,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
--'  17  17  ~/Documents/Dev/QuotaWatcher/quota_logger.py
-|4,39,17,17,1476480735,"~/Documents/Dev/QuotaWatcher/quota_logger.py"
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
+-'  268  2  ~/NERD_tree_1
+|4,39,268,2,1476615270,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1476615270,"~/NERD_tree_1"
 
 # History of marks within files (newest to oldest):
 
-> ~/Documents/Dev/QuotaWatcher/log_test.py
-	*	1476482287	0
-	"	1	0
-	^	1	1
+> ~/Documents/Dev/quotawatcher/NERD_tree_1
+	*	1476617548	0
+	"	6	0
 	.	1	0
-	+	1	112
-	+	1	85
-	+	1	99
-	+	1	83
-	+	1	129
-	+	1	140
-	+	1	132
-	+	1	176
-	+	1	184
-	+	1	165
 	+	1	0
 
-> ~/.vimrc.bundles
-	*	1476482218	0
-	"	197	6
-	^	140	0
-	.	141	0
-	+	130	12
-	+	140	0
-	+	141	0
+> ~/Documents/Dev/quotawatcher/quotawatcher.py
+	*	1476617149	0
+	"	254	0
+	^	253	15
+	.	253	14
+	+	62	0
+	+	72	0
+	+	75	0
+	+	261	1
+	+	261	10
+	+	261	0
+	+	261	10
+	+	261	27
+	+	261	0
+	+	261	44
+	+	261	10
+	+	261	0
+	+	252	8
+	+	251	15
+	+	250	8
+	+	253	14
+
+> ~/.vimrc.local
+	*	1476615289	0
+	"	1	1
+	^	1	2
+	.	47	1
+	+	103	27
+	+	123	78
+	+	123	19
+	+	108	0
+	+	123	0
+	+	108	30
+	+	123	27
+	+	123	36
+	+	108	30
+	+	123	27
+	+	123	36
+	+	123	46
+	+	123	0
+	+	123	36
+	+	123	46
+	+	123	36
+	+	123	1
+	+	123	18
+	+	123	47
+	+	123	0
+	+	109	33
+	+	110	34
+	+	121	48
+	+	124	0
+	+	111	0
+	+	112	0
+	+	113	0
+	+	114	0
+	+	115	0
+	+	116	0
+	+	117	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+	+	124	31
+	+	125	0
+	+	124	86
+	+	124	0
+	+	47	0
+	+	48	0
+	+	47	1
 
 > ~/NERD_tree_1
-	*	1476481781	0
+	*	1476615258	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/Dev/nerd-fonts/NERD_tree_1
+	*	1476615252	0
 	"	6	0
 	.	1	0
 	+	1	0
 
 > ~/.vimrc
-	*	1476481523	0
-	"	747	13
-	^	1028	4
-	.	253	35
-	+	85	6
-	+	85	30
-	+	86	29
-	+	58	0
-	+	87	18
-	+	192	12
-	+	111	5
-	+	187	7
-	+	253	35
+	*	1476615196	0
+	"	1128	16
+	^	232	5
+	.	232	4
+	+	232	4
 
-> ~/Documents/Dev/QuotaWatcher/NERD_tree_1
-	*	1476481273	0
+> ~/Documents/Dev/tensorflow_start/tensorflow/bin/NERD_tree_1
+	*	1476608710	0
 	"	6	0
 	.	1	0
 	+	1	0
-
-> ~/Documents/Dev/QuotaWatcher/quota_logger.py
-	*	1476481261	0
-	"	18	6
-	^	18	7
-	.	18	6
-	+	18	4
-	+	18	6
-
-> ~/.vimrc.local
-	*	1476481257	0
-	"	99	30
-	^	99	31
-	.	99	30
-	+	5	28
-	+	1	0
-	+	9	67
-	+	11	72
-	+	12	47
-	+	7	1
-	+	17	51
-	+	20	30
-	+	21	102
-	+	21	141
-	+	21	175
-	+	21	219
-	+	21	251
-	+	34	15
-	+	39	83
-	+	40	0
-	+	41	0
-	+	40	0
-	+	34	0
-	+	21	0
-	+	22	37
-	+	23	36
-	+	24	50
-	+	25	42
-	+	32	0
-	+	23	4
-	+	24	4
-	+	25	4
-	+	26	5
-	+	27	5
-	+	28	5
-	+	29	4
-	+	30	0
-	+	6	0
-	+	5	33
-	+	41	9
-	+	47	78
-	+	52	13
-	+	58	47
-	+	42	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	49	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	66	0
-	+	67	0
-	+	77	0
-	+	71	47
-	+	74	88
-	+	73	12
-	+	74	12
-	+	75	69
-	+	68	46
-	+	76	48
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	71	0
-	+	72	0
-	+	73	0
-	+	74	0
-	+	75	12
-	+	76	0
-	+	77	0
-	+	78	0
-	+	77	1
-	+	79	0
-	+	82	0
-	+	80	27
-	+	81	0
-	+	82	0
-	+	83	12
-	+	84	0
-	+	86	25
-	+	81	42
-	+	86	25
-	+	85	30
-	+	86	28
-	+	94	44
-	+	95	73
-	+	92	0
-	+	94	0
-	+	95	73
-	+	97	4
-	+	99	30
-	e	1	0
 
 > ~/.vimrc.bundles.local
-	*	1476480676	0
+	*	1476608337	0
+	"	10	27
+	^	10	28
+	.	10	27
+	+	5	7
+	+	6	9
+	+	6	31
+	+	7	25
+	+	8	63
+	+	9	30
+	+	10	27
+
+> ~/.zshrc
+	*	1476607744	0
+	"	22	0
+	^	22	0
+	.	22	0
+	+	21	0
+	+	22	0
+
+> ~/.vim/bundle/tender.vim/colors/tender.vim
+	*	1476568022	0
+	"	14	0
+
+> ~/.vim/bundle/tender.vim/colors/NERD_tree_1
+	*	1476567997	0
 	"	6	0
-	^	6	1
-	.	6	0
-	+	5	28
-	+	6	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/targeted_sequencing_analytics_suite.py
-	*	1476480364	0
-	"	1005	0
-	^	1006	0
-	.	1006	0
-	+	1005	18
-	+	257	37
-	+	344	17
-	+	350	30
-	+	23	0
-	+	307	69
-	+	1009	2
-	+	1009	13
-	+	1009	0
-	+	1006	20
-	+	1006	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/NERD_tree_1
-	*	1476480344	0
-	"	6	20
 	.	1	0
 	+	1	0
 
-> ~/targeted_sequencing_analytics_suite.py
-	*	1476478587	0
+> ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+	*	1476567653	0
+	"	1001	4
+
+> ~/.vim/bundle/vim-colors-solarized/colors/NERD_tree_1
+	*	1476567604	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/vim-colors/colors/molokai.vim
+	*	1476567557	0
 	"	1	0
 
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/unfold
-	*	1476471100	0
+> ~/.vim/bundle/vim-colors/colors/NERD_tree_1
+	*	1476567551	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/Dev/quotawatcher/test.py
+	*	1476507038	0
 	"	1	0
 
-> ~/.vimrc.20161014_1476469384
-	*	1476470797	0
-	"	219	30
-	^	219	31
-	.	184	8
-	+	175	13
-	+	175	12
-	+	176	0
-	+	184	8
+> ~/Documents/Dev/quotawatcher/README.md
+	*	1476504934	0
+	"	9	0
 
 > ~/[Vundle] clean
-	*	1476469514	0
+	*	1476502549	0
 	"	2	0
 	.	1	0
 	+	1	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/tsa.py
-	"	89	1041
-	^	89	1042
-	.	89	1041
-	+	62	4
-	+	63	4
-	+	64	4
-	+	67	4
-	+	66	5
-	+	65	4
-	+	1	0
-	+	84	0
-	+	84	6
-	+	84	0
-	+	84	3
-	+	84	4
-	+	84	14
-	+	84	9
-	+	84	14
-	+	84	14
-	+	84	14
-	+	84	14
-	+	84	6
-	+	84	9
-	+	84	9
-	+	84	9
-	+	86	0
-	+	86	0
-	+	84	0
-	+	84	3
-	+	84	3
-	+	84	3
-	+	86	0
-	+	84	0
-	+	84	0
-	+	84	4
-	+	85	0
-	+	89	3
-	+	36	4
-	+	89	1041
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/__InputList__
-	"	2	1
-	.	2	1
-	+	2	1
-
-> ~/Documents/Dev/pyclone_input/pyclone_input.py
-	"	80	3
-	^	80	4
-	.	80	4
-	+	66	4
-	+	67	4
-	+	62	47
-	+	30	0
-	+	62	58
-	+	62	57
-	+	79	41
-	+	79	16
-	+	79	30
-	+	79	26
-	+	79	6
-	+	80	4
-
-> ~/Documents/Dev/pyclone_input/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/shahlab_resources/Analysis_Guidelines_for_Users/Debugging.md
-	"	36	180
-	^	36	181
-	.	36	179
-	+	2	0
-	+	4	104
-	+	6	0
-	+	1	39
-	+	11	0
-	+	8	56
-	+	11	157
-	+	11	142
-	+	19	16
-	+	11	0
-	+	17	3
-	+	16	0
-	+	19	147
-	+	30	0
-	+	29	69
-	+	22	16
-	+	23	19
-	+	24	19
-	+	25	19
-	+	26	19
-	+	27	19
-	+	28	19
-	+	29	19
-	+	34	207
-	+	36	179
-
-> ~/Documents/Dev/shahlab_resources/Analysis_Guidelines_for_Users/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/shahlab_resources/Analysis_Guidelines_for_Users/Results_Verification.md
-	"	17	110
-	^	17	111
-	.	17	110
-	+	1	202
-	+	9	26
-	+	7	130
-	+	13	10
-	+	17	110
-
-> ~/Documents/Dev/shahlab_resources/Analysis_Guidelines_for_Users/git.md
-	"	15	39
-	^	15	40
-	.	15	39
-	+	3	39
-	+	1	39
-	+	8	0
-	+	7	8
-	+	15	39
-
-> ~/Documents/Dev/shahlab_resources/Guidelines_for_Developers/Bitbucket_Bamboo.md
-	"	1	0
-
-> ~/Documents/Dev/shahlab_resources/Guidelines_for_Developers/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/shahlab_resources/Guidelines_for_Developers/FAQ.md
-	"	1	0
-
-> ~/Documents/Dev/shahlab_resources/Guidelines_for_Developers/Kronos_Tutorial.md
-	"	7	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/NERD_tree_5
-	"	12	1
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/setup.py
-	"	7	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/README.md
-	"	1	0
-
-> ~/Documents/Dev/test_awesome/test.md
-	"	3	0
-	^	3	0
-	.	3	0
-	+	1	45
-	+	4	0
-	+	3	0
-
-> ~/Documents/Dev/test_awesome/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/pyclone_input/data/TASK_22_SA500_002_variant_status_annotated.tsv
-	"	2	0
-
-> ~/Documents/Dev/pyclone_input/pyclone.txt
-	"	1	0
-
-> ~/Documents/Dev/pyclone_input/tsp.tmp
-	"	4	0
-
-> ~/Documents/Dev/OncoSnp/README.md
-	"	26	0
-	^	27	105
-	.	27	104
-	+	1	53
-	+	20	63
-	+	2	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	4	0
-	+	2	35
-	+	22	0
-	+	3	16
-	+	24	53
-	+	27	104
-
-> ~/Documents/Dev/OncoSnp/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/QuotaWatcher/quotawatcher.py
-	"	251	3
-	^	251	4
-	.	251	4
-	+	212	0
-	+	38	3
-	+	251	4
-
-> ~/Documents/Dev/pyclone_input/run.sh
-	"	14	263
-
-> /private/var/folders/61/9zqvh7sx4gj7m7j5cly2ct7hr57yzf/T/ycm_temp/server_58023_stderr.log
-	"	1	0
-
-> ~/Documents/Dev/pyclone_input/run_rad.sh
-	"	17	0
-
-> ~/Documents/Dev/pyclone_input/pyclone_input_formatter.ipynb
-	"	1	0
-
-> ~/pyclone_input.py
-	"	1	0
-
-> ~/.vim/bundle/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/NERD_tree_2
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/transfer.sh
-	"	4	2
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/NERD_tree_2
-	"	8	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/pyclone_pipeline/pyclone_7.py
-	"	278	4
-
-> ~/Documents/Dev/pyclone_pipeline/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/.jupyter/custom/custom.css
-	"	30	0
-	^	30	0
-	.	30	0
-	+	27	0
-	+	29	0
-	+	30	0
-
-> ~/.jupyter/custom/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/Desktop/icgc_batch2/specimen.py
-	"	1	0
-
-> ~/Desktop/icgc_batch2/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Data/specimen.py
-	"	16	60
-	^	16	61
-	.	16	61
-	+	16	61
-
-> ~/Documents/Data/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/wgss/oncoseq/wrapper.py
-	"	271	0
-	^	271	0
-	.	177	0
-	+	181	0
-	+	182	0
-	+	177	0
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/wgss/oncoseq/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/tests/tsa_test.py
-	"	54	26
-
-> ~/Documents/Dev/targeted-sequencing-analytics-suite/tests/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/array/penncnv/wrapper.py
-	"	59	0
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/array/penncnv/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/ith_pipeline/code/pipelines/destruct/pipeline.py
-	"	102	0
-	^	102	0
-	.	120	0
-	+	119	0
-	+	120	0
-
-> ~/Documents/Dev/ith_pipeline/code/pipelines/destruct/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/array/oncosnp/wrapper.py
-	"	246	16
-
-> ~/Documents/Dev/ith_pipeline/code/wrappers/copy_number/array/oncosnp/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Library/Fonts/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/vim/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> /usr/share/vim/vim74/doc/help.txt
-	"	3	3
-
-> ~/Documents/Dev/fonts/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/Dev/fontpatcher/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/.ssh/config
-	"	13	10
-	^	13	11
-	.	13	10
-	+	14	0
-	+	1	1
-	+	3	10
-	+	8	10
-	+	13	10

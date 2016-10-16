@@ -1,1 +1,1 @@
-/Users/raniba/.spf13-vim-3/.vimrc
+/Users/Rad/.spf13-vim-3/.vimrc

@@ -3,65 +3,67 @@ argglobal
 let s:cpo_save=&cpo
 set cpo&vim
 inoremap <buffer> <silent> <BS> =AutoPairsDelete()
-xnoremap <buffer> <silent> ,r :PymodeRun
+inoremap <buffer> <expr> <C-Space> jedi#complete_string(0)
+imap <buffer> <Nul> <C-Space>
+xnoremap <buffer> ,r :call jedi#rename_visual()
+nnoremap <buffer> ,n :call jedi#usages()
+nnoremap <buffer> ,g :call jedi#goto_assignments()
+nnoremap <buffer> ,d :call jedi#goto()
 nnoremap <buffer> <silent> ,b :call pymode#breakpoint#operate(line('.'))
-snoremap <buffer> <silent> ,r :PymodeRun
-nnoremap <buffer> <silent> ,r :PymodeRun
-inoremap <buffer> <silent> î :call AutoPairsJump()a
-inoremap <buffer> <silent> <expr> ð AutoPairsToggle()
-inoremap <buffer> <silent> â =AutoPairsBackInsert()
+snoremap <buffer> ,r :call jedi#rename_visual()
+nnoremap <buffer> ,r :call jedi#rename()
 inoremap <buffer> <silent> å =AutoPairsFastWrap()
+inoremap <buffer> <silent> â =AutoPairsBackInsert()
+inoremap <buffer> <silent> <expr> ð AutoPairsToggle()
+inoremap <buffer> <silent> î :call AutoPairsJump()a
 onoremap <buffer> C :call pymode#motion#select('^\s*class\s', 0)
-xnoremap <buffer> <silent> K :call pymode#doc#show(@*)
 snoremap <buffer> <silent> K :call pymode#doc#show(@*)
-nnoremap <buffer> <silent> K :call pymode#doc#find()
+xnoremap <buffer> <silent> K :call pymode#doc#show(@*)
+nnoremap <buffer> <silent> K :call jedi#show_documentation()
 onoremap <buffer> M :call pymode#motion#select('^\s*def\s', 0)
-xnoremap <buffer> [[ :call pymode#motion#vmove('\v^(class|def)\s', 'b')
-xnoremap <buffer> [M :call pymode#motion#vmove('^\s*def\s', 'b')
+snoremap <buffer> [[ :call pymode#motion#vmove('\v^(class|def)\s', 'b')
 snoremap <buffer> [M :call pymode#motion#vmove('^\s*def\s', 'b')
+xnoremap <buffer> [M :call pymode#motion#vmove('^\s*def\s', 'b')
 onoremap <buffer> [M :call pymode#motion#move('^\s*def\s', 'b')
 onoremap <buffer> [C :call pymode#motion#move('\v^(class|def)\s', 'b')
 nnoremap <buffer> [M :call pymode#motion#move('^\s*def\s', 'b')
 nnoremap <buffer> [C :call pymode#motion#move('\v^(class|def)\s', 'b')
-snoremap <buffer> [[ :call pymode#motion#vmove('\v^(class|def)\s', 'b')
+xnoremap <buffer> [[ :call pymode#motion#vmove('\v^(class|def)\s', 'b')
 onoremap <buffer> [[ :call pymode#motion#move('\v^(class|def)\s', 'b')
 nnoremap <buffer> [[ :call pymode#motion#move('\v^(class|def)\s', 'b')
-xnoremap <buffer> ]] :call pymode#motion#vmove('\v^(class|def)\s', '')
-xnoremap <buffer> ]M :call pymode#motion#vmove('^\s*def\s', '')
+snoremap <buffer> ]] :call pymode#motion#vmove('\v^(class|def)\s', '')
 snoremap <buffer> ]M :call pymode#motion#vmove('^\s*def\s', '')
+xnoremap <buffer> ]M :call pymode#motion#vmove('^\s*def\s', '')
 onoremap <buffer> ]M :call pymode#motion#move('^\s*def\s', '')
 onoremap <buffer> ]C :call pymode#motion#move('\v^(class|def)\s', '')
 nnoremap <buffer> ]M :call pymode#motion#move('^\s*def\s', '')
 nnoremap <buffer> ]C :call pymode#motion#move('\v^(class|def)\s', '')
-snoremap <buffer> ]] :call pymode#motion#vmove('\v^(class|def)\s', '')
+xnoremap <buffer> ]] :call pymode#motion#vmove('\v^(class|def)\s', '')
 onoremap <buffer> ]] :call pymode#motion#move('\v^(class|def)\s', '')
 nnoremap <buffer> ]] :call pymode#motion#move('\v^(class|def)\s', '')
-xnoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
-xnoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
-snoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
-onoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
 snoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
+snoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
+xnoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
+onoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
+xnoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
 onoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
-xnoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
-xnoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
-snoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
-onoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
 snoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
+snoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
+xnoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
+onoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
+xnoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
 onoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
+snoremap <buffer> <expr> <C-Space> 'c'.jedi#complete_string(0)
+smap <buffer> <Nul> <C-Space>
 inoremap <buffer> <silent>  =AutoPairsDelete()
 inoremap <buffer> <silent>   =AutoPairsSpace()
 inoremap <buffer> <silent> " =AutoPairsInsert('"')
 inoremap <buffer> <silent> ' =AutoPairsInsert('''')
 inoremap <buffer> <silent> ( =AutoPairsInsert('(')
 inoremap <buffer> <silent> ) =AutoPairsInsert(')')
-onoremap <buffer> <silent> ð :call AutoPairsToggle()
-xnoremap <buffer> <silent> ð :call AutoPairsToggle()
-nnoremap <buffer> <silent> ð :call AutoPairsToggle()
-onoremap <buffer> <silent> î :call AutoPairsJump()
-xnoremap <buffer> <silent> î :call AutoPairsJump()
-nnoremap <buffer> <silent> î :call AutoPairsJump()
-snoremap <buffer> <silent> î :call AutoPairsJump()
-snoremap <buffer> <silent> ð :call AutoPairsToggle()
+inoremap <buffer> <silent> . .=jedi#complete_string(1)
+noremap <buffer> <silent> ð :call AutoPairsToggle()
+noremap <buffer> <silent> î :call AutoPairsJump()
 inoremap <buffer> <silent> [ =AutoPairsInsert('[')
 inoremap <buffer> <silent> ] =AutoPairsInsert(']')
 inoremap <buffer> <silent> ` =AutoPairsInsert('`')
@@ -106,12 +108,12 @@ setlocal filetype=python
 endif
 setlocal fixendofline
 setlocal foldcolumn=0
-setlocal nofoldenable
+setlocal foldenable
 setlocal foldexpr=pymode#folding#expr(v:lnum)
 setlocal foldignore=#
 setlocal foldlevel=0
 setlocal foldmarker={{{,}}}
-setlocal foldmethod=expr
+setlocal foldmethod=manual
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldtext=pymode#folding#text()
@@ -136,10 +138,10 @@ setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
 setlocal modeline
 setlocal modifiable
-setlocal nrformats=bin,octal,hex
+setlocal nrformats=hex
 setlocal number
 setlocal numberwidth=4
-setlocal omnifunc=pythoncomplete#Complete
+setlocal omnifunc=jedi#completions
 setlocal path=
 setlocal nopreserveindent
 setlocal nopreviewwindow
@@ -173,16 +175,38 @@ setlocal thesaurus=
 setlocal undofile
 setlocal undolevels=-123456
 setlocal nowinfixheight
-setlocal nowinfixwidth
+setlocal winfixwidth
 setlocal nowrap
 setlocal wrapmargin=0
-let s:l = 18 - ((17 * winheight(0) + 18) / 37)
+silent! normal! zE
+61,79fold
+80,83fold
+84,88fold
+89,96fold
+98,100fold
+97,127fold
+128,149fold
+150,159fold
+160,168fold
+169,204fold
+205,207fold
+57,207fold
+209,226fold
+57
+normal! zo
+97
+normal! zo
+97
+normal! zc
+57
+normal! zc
+let s:l = 254 - ((207 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-18
-normal! 07|
-lcd ~/Documents/Dev/QuotaWatcher
+254
+normal! 0
+lcd ~/Documents/Dev/quotawatcher
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :

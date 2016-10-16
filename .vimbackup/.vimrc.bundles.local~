@@ -3,4 +3,7 @@ Bundle 'itchyny/lightline.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'ryanoasis/vim-webdevicons'
 Bundle 'Yggdroot/indentLine'
-Bundle 'airblade/vim-gitgutter'
+Bundle 'ryanoasis/vim-devicons'
+Bundle 'Konfekt/FastFold'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'maralla/completor.vim'
