@@ -1,10 +1,28 @@
-" Theme
-syntax enable
-colorscheme tender
+let g:spf13_use_old_powerline=1
+set nospell
 
+"Theme
+syntax on
+colorscheme  tender
+"colorscheme Tomorrow-Night
 let g:airline_theme = 'simple'
 "let g:airline_left_sep=''
 "let g:airline_right_sep=''
+
+
+"Python Mode
+let g:pymode = 1
+let g:pymode_warnings = 1
+let g:pymode_options = 1
+let g:pymode_options_max_line_length = 79
+let g:pymode_options_colorcolumn = 1
+let g:pymode_indent = 1
+let g:pymode_virtualenv = 1
+let g:pymode_run = 1
+let g:pymode_run_bind = "<C-b>"
+let g:pymode_lint = 1
+let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
+let g:pymode_lint_ignore = "E501,W"
 
 
 " NERDTree
@@ -59,7 +77,8 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
-
+"let g:airline#extensions#whitespace#enabled = 0
+"let g:airline#extensions#syntastic#enabled = 1
   " old vim-powerline symbols
 let g:airline_left_sep = '⮀'
 let g:airline_left_alt_sep = '⮁'
@@ -170,7 +189,7 @@ autocmd VimEnter * wincmd p
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
 highlight VertSplit ctermbg=NONE
 highlight VertSplit ctermfg=NONE
-let g:NERDTreeWinPos = "left"
+let g:NERDTreeWinPos = "right"
 
 
 autocmd StdinReadPre * let s:std_in=1
@@ -253,3 +272,12 @@ let g:NERDTreeExtensionHighlightColor['md'] = "CC6666"
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_underbar_completion = 1
 " easymotion setting ends
+
+
+" Markdown
+
+au BufRead,BufNewFile *.md setlocal textwidth=80
+autocmd Filetype markdown setlocal wrap
+autocmd Filetype markdown setlocal linebreak
+autocmd Filetype markdown setlocal nolist
+autocmd Filetype markdown setlocal columns=200
